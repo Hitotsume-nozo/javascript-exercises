@@ -1,10 +1,10 @@
 const repeatString = function(value,num) {
-    temp =''
-    for (i=0;i<num;i++){
-        temp += value;
+    temp =''; i =0;
+    while (i<num){
+        temp += value; i++;
     }
-    if (num<0) {return "ERROR"};
-    return temp;
+    if (num<0){return "ERROR"}
+    return temp
 };
 
 // Do not edit below this line
